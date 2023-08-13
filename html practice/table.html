@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Table </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .table{
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 230px;
+}
+.table-rows{
+  border: 1px solid white;
+}
+.table-col{
+  text-align: center;
+  border: 1px solid rgb(241, 238, 238);
+}
+.table-heading{
+  font-weight: 900;
+  text-align: center;
+  background-color: rgb(124, 235, 124);
+}
+.table-rows:nth-child(even){
+  background-color: rgb(185, 219, 169);
+}
+  </style>
+</head>
+<body>
+  <table class="table">
+    <tr class="table-rows">
+      <th class="table-heading">     </th>
+      <th class="table-heading"> Fashion/Clothing </th>
+      <th class="table-heading"> Entertainment/leisure </th>
+      <th class="table-heading"> Transport </th>
+    </tr>
+    <tr class="table-rows">
+      <td class="table-heading"> UK </td>
+      <td class="table-col"> 5.3% </td>
+      <td class="table-col"> 31.1% </td>
+      <td class="table-col"> 19.6% </td>
+    </tr>
+    <tr class="table-rows">
+      <td class="table-heading"> France </td>
+      <td class="table-col"> 8.1% </td>
+      <td class="table-col"> 22.4% </td>
+      <td class="table-col"> 21.3% </td>
+    </tr>
+    <tr class="table-rows">
+      <td class="table-heading"> Germany </td>
+      <td class="table-col"> 7.2% </td>
+      <td class="table-col"> 32.3% </td>
+      <td class="table-col"> 23.4%  </td>
+    </tr>
+    <tr class="table-rows">
+      <td class="table-heading"> Hong Kong </td>
+      <td class="table-col"> 11.6% </td>
+      <td class="table-col"> 24.6% </td>
+      <td class="table-col"> 14.2%  </td>
+    </tr>
+    <tr class="table-rows">
+      <td class="table-heading"> Singapoor </td>
+      <td class="table-col"> 15.8% </td>
+      <td class="table-col"> 24.6% </td>
+      <td class="table-col"> 4.0%  </td>
+    </tr>
+  </table>
+</body>
+</html>
