@@ -1,0 +1,140 @@
+body {
+    background-image: url("pics/background.png");
+    background-position: center right;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    background-color: #F1F2F2;
+
+}
+
+.container1 {
+    margin-top: 30px;
+    padding-left: 160px;
+    padding-bottom: 40px;
+}
+
+.image {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.heading h1 {
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.para p {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: -30px;
+}
+
+
+
+.container2 {
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.input-field {
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid rgb(107, 104, 104);
+    border-radius: 5px;
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 29px;
+    border-color: antiquewhite;
+}
+
+.input {
+    padding-left: 10px;
+    width: 100%;
+    outline: transparent;
+    border: none;
+
+}
+
+.input-icon {
+    width: 15px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.button-div {
+    text-align: center;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.btn {
+    width: 200px;
+    background-color: #B35291;
+    padding: 10px 4px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.btn-link {
+    margin-top: 20px;
+    text-decoration: underline;
+    padding-left: 15px;
+    opacity: .6;
+    color: #5C606B;
+}
+
+
+
+.footer-logo {
+    margin: 0px;
+    padding-left: 122px;
+    height: 25px;
+    width: 200px;
+}
+
+.footer-para {
+    width: 170px;
+    height: 50px;
+    padding-left: 160px;
+    color: rgb(107, 104, 104);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    text-decoration: none;
+    padding-left: 160px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: rgb(107, 104, 104);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 55px;
+    padding-top: 30px;
+    display: flex;
+    border-top: 1px solid #d1dbdb;
+    background-color: #EDEFEF;
+    width: 100%;
+    color:#5C606B;
+}
