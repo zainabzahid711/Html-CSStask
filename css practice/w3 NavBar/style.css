@@ -1,0 +1,131 @@
+/*
+.nav-Bar{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.navBar-logo{
+  display: flex;
+  background-color: rgb(151, 27, 27);
+  margin-left: 20px;
+}
+.navBar-links{
+  background-color: red;
+}
+*/
+body{
+  margin: 0;
+}
+.nav-Bar{
+  background-color: black;
+  display: flex;
+}
+/* .navBar-logo{
+  width: 20px;
+} */
+.navBar-img{
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ul{
+  display: flex;
+}
+li{
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+} 
+
+
+li a, .navBar-dropbtn{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+  background-color: rgb(51, 58, 55);
+}
+li.dropdown{
+  display: inline;
+}
+.navBar-dropcontent{
+  display: none;
+  background-color: rgb(248, 245, 245);
+  box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+  position: absolute;
+  min-width: 150px;
+  z-index: 1;
+}
+.navBar-dropcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navBar-dropcontent a:hover{
+  background-color: rgb(114, 219, 141);
+}
+
+.dropdown:hover .navBar-dropcontent{
+  display: block;
+}
+.navBar-icons{
+  display: flex;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+.star-icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.space-icon{
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+.navBar-text{
+  margin-right: 10px;
+  color: white;
+}
+.navBar-bootcamp{
+  padding: 8px 16px;
+  display: flex;
+}
+.navBar-spaces{
+  padding: 8px 16px;
+  display: flex;
+}
+.navbar-btns{
+  padding: 8px 16px;
+  display: flex;
+}
+.login-button, .signup-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button {
+  background-color: #48dd86;
+  color: black;
+  border-radius: 20px;
+}
+
+.signup-button {
+  background-color: #e9dbd9;
+  color: black;
+  border-radius: 20px;
+}
+
+.signup-button:hover {
+  background-color: #48dd86;
+}
