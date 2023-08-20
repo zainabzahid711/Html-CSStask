@@ -3,66 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nav Bar</title>
+  <title> w3 NavBar </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="nav-Bar">
-    <div class="navBar-logo">
+    <div class="navBar-headings">
       <img class="navBar-img" src="imgs/W3Schools_logo.svg.png" alt="w3-logo">
-    </div>
-    <div class="navBar-links">
-      <ul>
-        <li class="dropdown"> 
-          <a href="#" class="navBar-dropbtn"> Tutorials </a>
-            <div class="navBar-dropcontent">
-              <a href="#"> Html </a>
-              <a href="#"> Css </a>
-              <a href="#"> Javascript </a>
-              <a href="#"> React </a>
-            </div>
-        </li>
-        <li class="dropdown">  
-          <a href="#" class="navBar-dropbtn"> Exercises </a> 
-            <div class="navBar-dropcontent">
-              <a href="#"> practice </a>
-              <a href="#"> 2019 </a>
-              <a href="#"> 2022 </a>
-              <a href="#"> 2023 </a>
-            </div>
-        </li>
-        <li class="dropdown"> 
-          <a href="#" class="navBar-dropbtn"> Get Certified </a>
+      <ul class="navBar-ul">
+        <li class="dropdown">
+          <a class="drop-btn" href="#">  Tutorials  </a>
           <div class="navBar-dropcontent">
-            <a href="#"> 2017 </a>
-            <a href="#"> 2019 </a>
-            <a href="#"> 2022 </a>
-            <a href="#"> 2023 </a>
+            <a href="#"> Html </a>
+            <a href="#"> css </a>
+            <a href="#"> Javascript </a>
           </div>
         </li>
         <li class="dropdown"> 
-          <a href="#" class="navBar-dropbtn"> Services </a>
+          <a class="drop-btn" href="#"> Exersices </a>
           <div class="navBar-dropcontent">
-            <a href="#"> privacy policy </a>
-            <a href="#"> services </a>
-            <a href="#"> portfolios </a>
+            <a href="#"> practice </a>
+            <a href="#"> try yourself </a>
+            <a href="#"> learning </a>
+          </div>
+        </li>
+        <li class="dropdown"> 
+          <a class="drop-btn" href="#"> Get Certified </a> 
+          <div class="navBar-dropcontent">
+            <a href="#"> with FrontEnd </a>
+            <a href="#"> with BackEnd </a>
+            <a href="#"> with FullStack </a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a class="drop-btn" href="#"> Services </a>
+          <div class="navBar-dropcontent">
+            <a href="#"> policy </a>
+            <a href="#"> portfolois </a>
+            <a href="#"> contact us </a>
           </div>
         </li>
       </ul>
     </div>
     <div class="navBar-icons">
-      <div class="navBar-bootcamp">
-        <img class="star-icon" src="imgs/stars.jpg" alt="bootcamp-logo">
-        <span class="navBar-text"> Bootcamps </span>
-      </div>
       <div class="navBar-spaces">
-        <img class="space-icon" src="imgs/gift icon.jpg" alt="spaces gift icon">
-        <span class="navBar-text"> Spaces </span>
+        <img class="navBar-star" src="imgs/stars.jpg" alt="star bootcamp">
+      <span class="navBar-text"> Bootcamps </span>
+      <img class="navBar-space" src="imgs/gift icon.jpg" alt="spaces icon">
+      <span class="navBar-text"> Spaces </span>
       </div>
       <div class="navBar-btns">
-          <button class="login-button"> Login </button>
-          <button class="signup-button"> Sign Up </button>
-      </div>
+        <div class="btn-container">
+          <button class="sign-btn"> Sign Up </button>
+          <button class="login-btn">  Login </button>
+        </div>
+      </div>      
     </div>
   </div>
 </body>
